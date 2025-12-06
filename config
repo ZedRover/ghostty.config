@@ -49,8 +49,10 @@
 # resize-overlay-duration = 4s 200ms
 
 #font
+font-family= "Fira Code Regular"
 font-family = "Operator Mono Lig"
 font-family = "LXGW WenKai GB Screen"
+font-codepoint-map = U+4E00-U+9FFF=Maple Mono NF CN
 font-codepoint-map = U+4E00-U+9FFF=LXGW WenKai Mono
 font-size = 15
 font-thicken = true
@@ -75,3 +77,5 @@ shell-integration-features = cursor,sudo,title,ssh-env
 # keyboard 
 macos-option-as-alt= true
 keybind = shift+enter=text:\x1b\r
+#cursor
+adjust-cursor-thickness=15
